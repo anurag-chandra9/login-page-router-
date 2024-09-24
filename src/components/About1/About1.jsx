@@ -16,13 +16,10 @@ export default function About1() {
                           React development is carried out by passionate developers
                       </h2>
                       <p className="mt-6 text-gray-600">
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
-                          accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
-                          aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                      React development is driven by a vibrant community of passionate developers who continuously push the boundaries of web development. These developers are dedicated to creating intuitive, scalable, and efficient user interfaces. They love experimenting with React's component-based architecture, reusable code, and powerful ecosystem. The open-source nature of React encourages collaboration, where developers actively contribute to libraries, tools, and frameworks that enhance productivity. 
                       </p>
                       <p className="mt-4 text-gray-600">
-                          Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
-                          Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                      Their commitment to clean, maintainable code and best practices fosters rapid innovation. Whether it's building small projects or large-scale applications, React developers are passionate about leveraging the framework’s flexibility and performance to deliver exceptional user experiences.
                       </p>
                   </div>
               </div>
