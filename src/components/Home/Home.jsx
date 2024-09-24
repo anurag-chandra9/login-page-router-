@@ -9,7 +9,7 @@ export default function Home() {
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
                         <h2 className="text-4xl font-bold sm:text-5xl">
                             Download Now
-                            <span className="hidden sm:block text-4xl">Lorem Ipsum</span>
+                            <span className="hidden sm:block text-4xl">click here</span>
                         </h2>
 
                         <Link
@@ -32,15 +32,17 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://th.bing.com/th/id/OIP.wA8sxlnAfe617rB5YNh5tAAAAA?rs=1&pid=ImgDetMain" alt="image1" />
-                </div>
+                    <img className="w-96" src="https://m.media-amazon.com/images/M/MV5BZTJjYTZiYWMtN2Q4OS00YzYxLTkwNGItNmEwMDllZWJhNGMxXkEyXkFqcGdeQXVyMzQ3Nzk5MTU@._V1_.jpg" alt="image1" />
+                   
+                    </div>
+                
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
                 <img className="sm:w-96 w-48" src="https://th.bing.com/th/id/OIP.rezKDNhujAECYcTeUEQROAHaH7?rs=1&pid=ImgDetMain" alt="image2" />
-            </div>
+             </div>
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
+            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Iqra Aziz</h1>
         </div>
     );
 }
