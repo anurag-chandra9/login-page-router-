@@ -32,17 +32,17 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://m.media-amazon.com/images/M/MV5BZTJjYTZiYWMtN2Q4OS00YzYxLTkwNGItNmEwMDllZWJhNGMxXkEyXkFqcGdeQXVyMzQ3Nzk5MTU@._V1_.jpg" alt="image1" />
+                    <img className="w-96" src="https://th.bing.com/th/id/OIP.2GF-XAdi_BgDWDecuRSgiQHaEf?rs=1&pid=ImgDetMain" alt="image1" />
                    
                     </div>
                 
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://th.bing.com/th/id/OIP.rezKDNhujAECYcTeUEQROAHaH7?rs=1&pid=ImgDetMain" alt="image2" />
+                <img className="sm:w-96 w-48" src="https://th.bing.com/th/id/OIP.NJaQmxooPqLmoIE9VinGCwHaHa?rs=1&pid=ImgDetMain" alt="image2" />
              </div>
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Iqra Aziz</h1>
+            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">sonam wangchuk</h1>
         </div>
     );
 }

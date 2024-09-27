@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
-                                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                                src="https://th.bing.com/th/id/OIP.Sv-46aubHDJTRbF_6ntxYQHaHo?rs=1&pid=ImgDetMain"
                                 className="mr-3 h-16"
                                 alt="Logo"
                             />
@@ -19,16 +19,26 @@ export default function Footer() {
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
-                                <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
-                                        Home
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/about" className="hover:underline">
-                                        About1
-                                    </Link>
-                                </li>
+                            <li>
+                                <NavLink
+                                to="/"
+                                    className={({isActive}) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive?"text-orange-700":"text-grey-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                    Home
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                to="/About1"
+                                    className={({isActive}) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive?"text-orange-700":"text-grey-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                            About
+                                </NavLink>
+                            </li>
                             </ul>
                         </div>
                         <div>
@@ -36,7 +46,7 @@ export default function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
+                                        href="https://github.com/anurag-chandra9"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
@@ -72,7 +82,7 @@ export default function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2023
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline">
+                        <a href='https://www.instagram.com/anurag.chandra9?igsh=MXJiaDEweTNkcWg4dg==' className="hover:underline">
                     Anurag chandra
                         </a>
                         . All Rights Reserved.
